@@ -1,0 +1,30 @@
+.landing-content-container {
+    color: white;
+	font-family: "Figtree", sans-serif;
+    margin-top: 14px;
+}
+
+.landing-content-title {
+    margin-bottom: 0;
+}
+
+.landing-content-text {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.04em;
+}
+
+.landing-content-text-h4 {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+.landing-content-text-h3 {
+    margin-top: 54px;
+    margin-bottom: 34px;
+    font-size: 1.04em;
+    font-weight: 600;
+}

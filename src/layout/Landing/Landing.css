@@ -1,0 +1,98 @@
+.section-landing {
+	font-family: "Figtree", sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	text-align: center;
+
+	height: 100vh;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	background-color: #1c1c1c;
+
+}
+
+.sidebar-icon {
+	color: white;
+	height: fit-content;
+}
+
+.header-container {
+	text-align: center;
+	position: relative;
+
+	height: 6vh;
+
+	width: 100%;
+	max-width: 1400px;
+	vertical-align: baseline;
+
+	padding: 1px 23px 0 23px;
+	margin: 0 auto;
+}
+
+.header-aside {
+	padding-top: 2.4vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+}
+
+.menu-icon {
+	margin-top: 5px;
+	margin-left: 18px;
+}
+
+.real-sidebar {
+	background-color: #282828;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: -202px;
+	bottom: 0;
+	left: auto;
+	z-index: 200;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	width: 202px;
+}
+
+.open {
+	right: 0;
+}
+
+/*TODO buscar y cambiar fuente*/
+.sidebar-close {
+	position: absolute;
+	top: 22px;
+	right: 16px;
+
+	font-family: "Figtree", sans-serif;
+	font-style: normal;
+	color: #eeeeee;
+	font-size: 20px;
+	font-weight: 100;
+	cursor: pointer;
+	user-select: none;
+}
+
+.content-container {
+	display: grid;
+	justify-content: center;
+	z-index: 1;
+}
+
+.curve {
+	position: absolute;
+	height: 396px;
+	bottom: 0;
+	width: 100%;
+}

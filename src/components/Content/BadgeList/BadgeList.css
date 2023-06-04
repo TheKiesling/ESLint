@@ -1,0 +1,22 @@
+.badge-list {
+    width: auto;
+    list-style-type: none;
+    display: flex;
+  
+    justify-content: center;
+  
+  }
+  
+  .badge-item {
+    align-items: center;
+  
+    display: flex;
+    gap: 4px;
+    padding-inline: 14px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 1.04em;
+    
+      font-family: "Figtree", sans-serif;
+  }

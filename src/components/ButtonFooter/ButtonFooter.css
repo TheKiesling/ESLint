@@ -1,0 +1,17 @@
+.button-footer {
+	border-radius: 10px;
+	text-shadow: none;
+	padding: 9px 16px;
+	font-family: "Figtree", sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	display: inline-block;
+	cursor: pointer;
+	background-color: #356e58;
+	color: #eeeeee;
+	transition: background-color 0.15s ease-out;
+}
+
+.button-footer:hover {
+	background-color: #2c5b49;
+}

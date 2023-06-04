@@ -1,0 +1,10 @@
+.logo-item {
+	margin-top: 9px;
+	width: 200px;
+	height: 162px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url(https://duckduckgo.com/assets/logo_homepage.alt.v108.svg);
+	background-size: 100% 100%;
+	justify-self: center;
+}
